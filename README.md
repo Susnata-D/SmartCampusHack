@@ -1,0 +1,2 @@
+# SmartCampusHack
+Hackathon
