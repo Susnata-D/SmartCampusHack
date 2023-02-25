@@ -1,0 +1,55 @@
+.authentication-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+img {
+    margin-right: 30px;
+}
+
+.authentication-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.authentication-page label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.authentication-page input {
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: groove;
+    border-color: #ccc;
+}
+
+.authentication-page input:focus {
+    border-color: black;
+    outline-color: rgb(174, 215, 242);
+}
+
+.authentication-page button {
+    background-color: #0077cc;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.authentication-page button:hover {
+    background-color: #005fa3;
+}
